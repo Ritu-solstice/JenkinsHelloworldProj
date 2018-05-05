@@ -14,9 +14,9 @@ public class Controller {
         log.info("Landed to default API");
         return "Landed to default API";
     }
-//    @GetMapping("/jenkins")
-//    public String getJenkin(){
-//        log.info("Jenkins working");
-//        return "Jenkins working";
-//    }
+    @GetMapping("/jenkins")
+    public String getJenkin(){
+        log.info("Jenkins working");
+        return "Jenkins working";
+    }
 }
